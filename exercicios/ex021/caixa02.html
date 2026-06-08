@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Importantes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(189, 175, 175);
+            margin: 0px;  
+        }
+        
+        header{
+            background-color: white; 
+            padding: 10px;
+            margin: 10px;    
+        }
+        
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;  
+            padding: 5px;   
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 1px;
+        }
+
+        article > aside{
+            background-color: rgb(155, 149, 149);
+        }
+
+        nav{
+            background-color: rgb(129, 124, 124);
+            box-shadow: 2px 2px 4px 1px;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            padding: 0px 20px; 
+            font-weight: bold; 
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes, Política e Tecnologia</h2>
+            <article>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugiat exercitationem dignissimos commodi maxime facere dolores eos. Sint quam, neque velit maiores, ipsa libero, quisquam nam porro repellendus non nostrum?</p>   
+            </article>
+        </section>
+        <section id="noticias">
+            <h2>Notícia sobre o Brasil</h2>
+            <article>
+                <h3>Aumento do petróleo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam at ea corporis, vitae nesciunt odio mollitia nihil odit laboriosam aperiam. Ad, officia quis porro ipsum culpa ipsa repellat esse!</p>
+                <aside>
+                <p>Atigo escrito por Valter de Oliveira</p>
+                </aside>
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por TimeGarimpo</p>
+
+    </footer>
+
+    <!--
+    header- cabeçalho
+    nav: menu 
+    main- conteudo principal
+    footer: rodapé
+    section: seção
+    article: artigo
+    -->
+    
+</body>
+</html>

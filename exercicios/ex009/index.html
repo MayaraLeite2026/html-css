@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code>é escrito em linguagem JavaScript, para sair bem formatado o código uso a <strong>tag Code</strong> que deixa a <mark>fonte monoespassada</mark>, ótima para ler códigos.</p>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do programa')
+    </code>
+    <p>Acima temos um código utilizando somente a <strong>tag code</strong>, ele certamente não está formatado assim na ide de desenvolvimento, observe abaixo a diferença de quando envelopamos a <strong>tag code</strong> com a <strong>tag pre (esta tag respeita a identação e formatação)</strong></p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <p>Um comando importante usado para deslocar o código corretamente na tela é: <br> 
+        <mark>Seleciono todo o texto do código, shift + tab</mark> <br>
+     Dessa forma posso deslocar para a esquerda, para a direita seleciono e aperto o tab </p>
+     <h2>Citações simples</h2>
+     <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q>, utilizei a <strong>tag q</strong> (quote) que significa citação.</p>
+     <h2>Citações completas</h2>
+        <blockquote cite="https://www.google.com.br/books/edition/HTML5_Up_and_Running/Mk3sW0on7OAC?hl=pt-BR&gbpv=1&dq=html5&pg=PA41&printsec=frontcover">
+            One of the most important parts of any website is the navigation bar.
+        </blockquote>
+        <p>A citação completa pode ser de algum livro ou página da internet, uso a <strong>tag blockquote</strong> para fazê-la e junto coloco o parâmetro cite onde referencio o link da página da citação, não vai aparecer, mas serve para os mecanismos de busca e respeitar os direitos autorais do criador.</p>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascadyng Style Sheets">CSS3</abbr> e estou adorando!</p>
+        <p>Aqui envelopei usando a <strong>tag abbr</strong> que permite colocar o nome das abreviações em um pop-up, quando o leitor passar o cursor em cima mostrará o nome.</p>
+        <h2>Texto Invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas
+        </bdo><br>Estou aprendendo a criar coisas</p>
+        <p>a <strong>tag bdo</strong> com o parametro dir="rtl" (right to left) permite deixar o sentido do texto invertido, como se tivesse um espelho.</p>
+        
+    
+</body>
+</html>

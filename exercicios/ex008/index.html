@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark{background-color: blueviolet;
+        }
+    </style>
+    <title>Negrito e Itálico do jeito certo</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito usando</b> B (não semântica)</p>
+    <p>Nesta frase temos um <strong>termo em negrito usando</strong> strong ( semântica)</p>
+    <h2>Itálico/Enfase</h2>
+    <P>Nesta frase <i>temos um termo em itálico</i> usando a tag I (não semântica)</P>
+    <p>Nesta frase <em>temos um termo em itálico</em> usando a tag em (semântica)</p>
+    <h2>Marcador</h2>
+    <p>Podemos também <mark style="background-color:limegreen;">marcar um texto</mark> usando a tag mark</p><!--A configuração especifica sobrepoe a geral da head-->
+    <p>Podemos também <mark>marcar um texto</mark> e mudar sua cor de três formas:</p>
+    <ul>
+        <li> <mark>a primeira</mark> é como acima junto com a tag coloco style e background color escolhendo a cor</li>
+        <li><mark>a segunda</mark> é inserindo style na head, e inserindo mark dentro de colchetes modifico a cor</li>
+        <li><mark>a terceira</mark> é através do próprio css na página dele</li>
+    </ul>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como excluido</del>, para indicar que ele deve ser lido, mas não considerado, usando a tag del.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois, usando a tag ins.</p>
+    <p>Podemos marcar um <u>texto como inserido</u> para dar ênfase e indicar que ele foi adicionado depois, usando a tag u não semântica.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo.</p>
+    <p>OBS: Usei big e small, porém big já está em vermelho e significa que esta entrando em desuso.</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo: x20+3 faço x<sup>20</sup>+3, usando a tag sup</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo: H2O faço H<sub>2</sub>O, usando a tag sub</p>
+    <h2>Importância de usar tag com semântica</h2>
+    <p>Como o HTML5 é semântico, quer dizer que ele é focado no significado e não na forma e estilo (responsabilidade do CSS3), devemos como boa prática usar os termos com semântica pois há uma forte tendência dos termos sem semântica cairem em desuso!</p>
+</body>
+</html>

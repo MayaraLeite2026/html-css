@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <H1>Vídeos em diferentes formatos</H1>
+    <p>Como colocar vídeos em um site, abaixo coloco 2 vídeos iguais com diferentes formatos, que atendem vários tipos de navegadore.</p>
+    <p>Utilizei as versões MP4 e webm com o software de conversão HANDBRAKE.</p>
+    <video width="500" poster="imagens/carro-no-gelo-405-720-original.jpg" loop controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Infelizmente o seu navegador não pode abrir este vídeo, para fazer o download dele <a href="midia/meu-video.mp4">clique aqui!</a></p>
+    </video>
+
+    <h1>Colocando vídeos do youtube</h1>
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/M7lc1UVf-VE"
+    title="YouTube video player"
+    frameborder="0"
+    allowfullscreen>
+    </iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vb3DnzyFuts?si=zk2fKEvXpt0ib4Mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Colocando vídeo do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/1170179436?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Bob&#039;s Funeral"></iframe>
+    
+</body>
+</html>
