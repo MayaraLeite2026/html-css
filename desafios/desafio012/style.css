@@ -5,73 +5,77 @@
     margin: 0px;
 }
 
-body {
-    height: 98vh;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-a:hover {    
-    text-decoration: underline;   
+html, body {
+    height: 100vh;
+    background-color: darkgrey;
 }
 
 header {
     background-color: black;
     text-align: center;
-    padding: 50px;
+    color:white;
+    padding: 50px 0px;
 }
 
-header> h1 {
-    color: white;
+header> h1 {    
     font-variant: small-caps;
     font-size: 80px;
-    font-weight: bolder;
-    
+    font-weight: bolder;    
 }
 
-header> p {
-    color: white;
-    font-size: xx-large;
-    padding: 10px;
+header> p {    
+    font-size: xx-large;    
 }
 
-header> p> a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-section.normal {
-    background-color: white;
-    height: 60%;
+header a:hover, footer a:hover {    
+    text-decoration: underline;   
 }
 
-section p {
-    max-width: 500px;
-    font-size: 30px;
-    margin: auto;
-    text-align: left;
+section {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
 }
 
 section.imagem {
     background-color: gray;
+    color: white;
+}
+
+section.imagem > p {
+    display: inline-block;
+    max-width: fit-content;
+    background-color: rgba(44, 38, 38, 0.267);
+    border:1px solid rgba(0, 0, 0, 0.322);
+    /*Aqui ele apenas colocou width de 400px até agora*/
 }
 
 footer {
     background-color: black;
     text-align: center;
     padding: 10px;
+    color: white;
+    padding: 10px;
 }
 
 footer p {
-    color: white;
-    padding: 2px;
+    
     font-size: 30px;
     
 }
+
+
     
 
